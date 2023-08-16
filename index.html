@@ -1,58 +1,58 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>calculator</title>
-    <link rel="stylesheet" href="./dist/output.css">
-</head>
-
-<body>
-    <div class="min-h-screen bg-gray-100 flex items-center justify-center">
-
-        <!-- calculator goes here -->
-        <div class="bg-warna-bg border-2 border-gray-900 shadow-2xl rounded-lg">
-            <!-- form goes here -->
-            <form class="border-b-2 border-gray-900">
-                <input type="text" name="" id="textInput" value="0"
-                    class="bg-transparent p-8 rounded-t-lg outline-none focus:bg-gray-700 text-3xl text-right text-white font-mono">
-            </form>
-
-            <!-- buttons go here -->
-            <div class="p-6 text-gray-800 grid grid-cols-4 gap-4 text-xl">
-                <button class=" font-mono col-span-3 bg-warna-operator hover:bg-blue-400 rounded-full p-5"
-                    id="reset">C</button>
-                <button class="tombol font-mono bg-warna hover:bg-purple-400 rounded-full p-5">/</button>
-
-                <button class="tombol font-mono bg-warna-angka hover:bg-gray-400 rounded-full p-5">1</button>
-                <button class="tombol font-mono bg-warna-angka hover:bg-gray-400 rounded-full p-5">2</button>
-                <button class="tombol font-mono bg-warna-angka hover:bg-gray-400 rounded-full p-5">3</button>
-                <!--  -->
-                <button class="tombol font-mono bg-warna hover:bg-purple-400 rounded-full p-5">x</button>
-
-                <button class="tombol font-mono bg-warna-angka hover:bg-gray-400 rounded-full p-5">4</button>
-                <button class="tombol font-mono bg-warna-angka hover:bg-gray-400 rounded-full p-5">5</button>
-                <button class="tombol font-mono bg-warna-angka hover:bg-gray-400 rounded-full p-5">6</button>
-                <button class="tombol font-mono bg-warna  hover:bg-purple-400 rounded-full p-5">-</button>
-
-                <button class="tombol font-mono bg-warna-angka hover:bg-gray-400 rounded-full p-5">7</button>
-                <button class="tombol font-mono bg-warna-angka hover:bg-gray-400 rounded-full p-5">8</button>
-                <button class="tombol font-mono bg-warna-angka hover:bg-gray-400 rounded-full p-5">9</button>
-                <button class="tombol font-mono bg-warna hover:bg-purple-400 rounded-full p-5">+</button>
-
-                <button class="tombol font-mono bg-warna-operator hover:bg-blue-400 rounded-full p-5">0</button>
-                <button class="font-mono col-span-3 bg-warna hover:bg-purple-400 rounded-full p-5"
-                    id="jumlah">=</button>
+        <!DOCTYPE html>
+        <html lang="en">
+        
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>calculator</title>
+            <link rel="stylesheet" href="./dist/output.css">
+        </head>
+        
+        <body>
+            <div class="min-h-screen bg-gray-100 flex items-center justify-center">
+        
+                <!-- calculator goes here -->
+                <div class="bg-warna-bg border-2 border-gray-900 shadow-2xl rounded-lg">
+                    <!-- form goes here -->
+                    <form class="border-b-2 border-gray-900">
+                        <input type="text" name="" id="textInput" value="0"
+                            class="bg-transparent p-8 rounded-t-lg outline-none focus:bg-gray-700 text-3xl text-right text-white font-mono">
+                    </form>
+        
+                    <!-- buttons go here -->
+                    <div class="p-6 text-gray-800 grid grid-cols-4 gap-4 text-xl">
+                        <button class=" font-mono col-span-3 bg-warna-operator hover:bg-blue-400 rounded-full p-5"
+                            id="reset">C</button>
+                        <button class="tombol font-mono bg-warna hover:bg-purple-400 rounded-full p-5">/</button>
+        
+                        <button class="tombol font-mono bg-warna-angka hover:bg-gray-400 rounded-full p-5">1</button>
+                        <button class="tombol font-mono bg-warna-angka hover:bg-gray-400 rounded-full p-5">2</button>
+                        <button class="tombol font-mono bg-warna-angka hover:bg-gray-400 rounded-full p-5">3</button>
+                        <!--  -->
+                        <button class="tombol font-mono bg-warna hover:bg-purple-400 rounded-full p-5">x</button>
+        
+                        <button class="tombol font-mono bg-warna-angka hover:bg-gray-400 rounded-full p-5">4</button>
+                        <button class="tombol font-mono bg-warna-angka hover:bg-gray-400 rounded-full p-5">5</button>
+                        <button class="tombol font-mono bg-warna-angka hover:bg-gray-400 rounded-full p-5">6</button>
+                        <button class="tombol font-mono bg-warna  hover:bg-purple-400 rounded-full p-5">-</button>
+        
+                        <button class="tombol font-mono bg-warna-angka hover:bg-gray-400 rounded-full p-5">7</button>
+                        <button class="tombol font-mono bg-warna-angka hover:bg-gray-400 rounded-full p-5">8</button>
+                        <button class="tombol font-mono bg-warna-angka hover:bg-gray-400 rounded-full p-5">9</button>
+                        <button class="tombol font-mono bg-warna hover:bg-purple-400 rounded-full p-5">+</button>
+        
+                        <button class="tombol font-mono bg-warna-operator hover:bg-blue-400 rounded-full p-5">0</button>
+                        <button class="font-mono col-span-3 bg-warna hover:bg-purple-400 rounded-full p-5"
+                            id="jumlah">=</button>
+                    </div>
+        
+        
+                </div>
+        
             </div>
-
-
-        </div>
-
-    </div>
-
-    <script src="./dist/index.js"></script>
-</body>
-
-</html>
+        
+            <script src="./dist/index.js"></script>
+        </body>
+        
+        </html>
